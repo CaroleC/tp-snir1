@@ -17,7 +17,6 @@
 		//----------------------------------------------------------------------
 		//------  Envoyer la requête    ----------------------------------
             $requete = "SELECT pwd FROM user WHERE pseudo = '$identifiant' AND pwd = '$password'";	//---- Préparation de la requête
-			echo"Requête envoyée : $requete";
             $resultat = $id -> query($requete);			//---- Envoie de la requête
 
 		//----------------------------------------------------------------------
